@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 body{
-    background-color: #1a0B2E;
+    background-color: #1A0B30;
 }
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -40,6 +40,7 @@ h4{
     margin: 0 auto;
 }
 header{
+    background-color: #1A0B2E;
     border-bottom: 2px solid #412567;
     padding: 24px 0;
 }
@@ -73,12 +74,13 @@ button{
 }
 .mike-circle{
     width: 100%;
+    position: relative;
 }
 .mike-circle .circle{
     position: absolute;
     /* left: 525px; */
     left: 38%;
-    top: 180px;
+    top: -0px;
 }
 /* .circle img{
     width: 100%;
@@ -97,9 +99,6 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: column; */
-}
-.banner-content p{
-    margin-top: 8px;
 }
 .banner-btn p{
     margin-top: 0px;
@@ -121,4 +120,43 @@ button{
 }
 .btn2 p{
     color: #00FF88;
+}
+.section-title{
+    text-align: center;
+}
+.host-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.host-parent .host-thumb{
+    width: 200px;
+    height: 200px;
+}
+.host-thumb img{
+    width: 100%;
+}
+footer{
+    background: url(./assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 120px 0;
+}
+.footer-logo img{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.footer-logo img{
+    width: 100%;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0 0;
+}
+.footer-parent p{
+    margin-top: 30px;
 }
