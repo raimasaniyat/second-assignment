@@ -1,3 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
 body{
-    background-color: black;
+    background-color: #1a0B2E;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    padding: 12.5px 16px;
+    border-radius: 50px;
 }
