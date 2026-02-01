@@ -10,7 +10,61 @@ body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+p{
+    font-size: 16px;
+    color: #d1cfd8;
+    font-weight: 400;
+}
+h1{
+    font-weight: 60px;
+    color: #fff;
+    font-weight: 800;
+}
+h2{
+    font-weight: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+h3{
+    font-weight: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+h4{
+    font-weight: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 2px solid #412567;
+    padding: 24px 0;
+}
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-parent ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.nav-parent ul li a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
 .btn{
-    padding: 12.5px 16px;
+    padding: 8px 16px;
     border-radius: 50px;
+}
+.btn p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
 }
