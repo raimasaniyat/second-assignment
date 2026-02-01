@@ -69,6 +69,24 @@ button{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 280px 0 300px;
+}
+.mike-circle{
+    width: 100%;
+}
+.mike-circle .circle{
+    position: absolute;
+    left: 530px;
+    top: 180px;
+}
+/* .circle img{
+    width: 100%;
+} */
+.mike{    
+    position: absolute;
+    left: 650px;
+    top: 270px;
+    z-index: 1;
 }
 .banner-btn{
     display: flex;
