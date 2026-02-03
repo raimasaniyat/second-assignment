@@ -11,7 +11,7 @@ body{
   font-optical-sizing: auto;
 }
 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #d1cfd8;
     font-weight: 400;
 }
@@ -31,7 +31,7 @@ h3{
     font-weight: 700;
 }
 h4{
-    font-size: 24px;
+    font-size: 18px;
     color: #fff;
     font-weight: 700;
 }
@@ -146,6 +146,24 @@ button{
     border-top: 1px solid #40256785;
 }
 .number h2{
+    color: #00FF88;
+}
+
+.feature-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.feature-content{
+    max-width: 300px;    
+    background-color: #230E3D;
+    padding: 24px;
+}
+.feature-content p{
+    margin: 10px 0;
+}
+.f-icon{
     color: #00FF88;
 }
 .host{
