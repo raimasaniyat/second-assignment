@@ -78,17 +78,17 @@ button{
 }
 .mike-circle .circle{
     position: absolute;
-    /* left: 525px; */
-    left: 38%;
-    top: -0px;
+    left: 350px;
+    /* left: 38%; */
+    top: -365px;
 }
 /* .circle img{
     width: 100%;
 } */
-.mike{    
+.mike{
     position: absolute;
-    left: 645px;
-    top: 270px;
+    left: 471px;
+    top: -275px;
     z-index: 1;
 }
 .banner-content{
@@ -123,18 +123,48 @@ button{
 }
 .section-title{
     text-align: center;
+    margin-bottom: 40px;
+}
+.host{
+    background-color: #1A0B2E;
+    padding: 70px 0;
 }
 .host-parent{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-}
-.host-parent .host-thumb{
-    width: 200px;
-    height: 200px;
+    gap: 20px;
+    background-color: #250D44;
+    padding: 40px;
+    border-radius: 20px;
 }
 .host-thumb img{
     width: 100%;
+}
+.host-content{
+    max-width: 800px;
+}
+.host-content p{
+    margin: 8px 0 16px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.s-icon{
+    padding: 5px;
+    border-radius: 100%;
+    border: 1px solid #D605CB;
+}
+.s-icon li a{
+    color: #D605CB;
+}
+.s-icon:hover{
+    border: 1px solid #F8C751;
+}
+.s-icon li a:hover{
+    color: #F8C751;
 }
 footer{
     background: url(./assets/footer-bg.png);
