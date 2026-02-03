@@ -155,6 +155,17 @@ button{
     align-items: center;
     gap: 30px;
 }
+.feature-wrap{
+    position: relative;
+}
+.feature-thumb .thumb-icon{
+    position: absolute;
+    top: 34px;
+    left: 111px;
+}
+.feature-thumb .thumb-icon a{
+    font-size: 63px;
+}
 .feature-content{
     max-width: 300px;    
     background-color: #230E3D;
