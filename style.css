@@ -125,6 +125,29 @@ button{
     text-align: center;
     margin-bottom: 40px;
 }
+.about{
+    padding: 60px 0;
+}
+.about-content{
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.small{
+    margin: 30px 0 50px;
+}
+.about-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    /* width: 100%; */
+    padding-top: 40px;
+    border-top: 1px solid #40256785;
+}
+.number h2{
+    color: #00FF88;
+}
 .host{
     background-color: #1A0B2E;
     padding: 70px 0;
