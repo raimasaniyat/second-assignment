@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .about{
+        padding: 0 20px;
+    }
+    .about-numbers{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 100px);
+        gap: 10px;
+    }
+    .number{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
