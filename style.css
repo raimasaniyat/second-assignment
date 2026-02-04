@@ -296,3 +296,8 @@ footer{
 .footer-parent p{
     margin-top: 30px;
 }
+@media screen and (min-width: 577px) {    
+    .hamburger{
+    display: none;
+    }
+}
