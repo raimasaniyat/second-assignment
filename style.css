@@ -148,7 +148,12 @@ button{
 .number h2{
     color: #00FF88;
 }
-
+.techwave{
+    background-color: #230E3D;
+}
+.one , .two , .three, .four , .five{
+    background-color: #2A0F4D;
+}
 .feature-parent{
     display: flex;
     justify-content: center;
