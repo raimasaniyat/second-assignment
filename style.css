@@ -150,7 +150,7 @@ button{
 }
 .techwave{
     background-color: #230E3D;
-    padding: 60px 0 80px;
+    padding: 60px 0 100px;
 }
 .grid-parent{
     display: grid;
@@ -160,18 +160,38 @@ button{
 }
 .one , .two , .three, .four , .five{
     background-color: #2A0F4D;
+    padding: 30px;
+    border-radius: 20px;
 }
 .one{
     grid-column: span 1;
     grid-row: span 2;
 }
+.one img{
+    margin: 50px 0 0;
+}
+.grid-parent h4{
+    margin: 10px 0 8px;
+}
+.grid-parent p{
+    max-width: 300px;
+}
 .two , .three , .four{
     grid-column: span 2;
     grid-row: span 1;
 }
+.four , .five{
+    height: 220px;
+}
+.four p{
+    max-width: 700px;
+}
 .five{
     grid-column: span 1;
     grid-row: span 1;
+}
+.feature{
+    padding: 60px 0;
 }
 .feature-parent{
     display: flex;
