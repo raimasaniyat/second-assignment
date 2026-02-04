@@ -79,26 +79,33 @@ button{
 .mike-circle .circle{
     position: absolute;
     left: 350px;
-    /* left: 38%; */
     top: -365px;
 }
-/* .circle img{
-    width: 100%;
-} */
 .mike{
     position: absolute;
     left: 471px;
     top: -275px;
     z-index: 1;
 }
+.new{
+    padding: 6px 10px;
+    width: 70px;
+    background-color: #00FF88;
+    text-align: center;
+    border-radius: 25px;
+    position: absolute;
+    top: -350px;
+    left: 590px;
+    box-shadow: 2px 5px 30px 5px #00ff886c;
+}
+.new p{
+    color: black;
+    font-weight: 700;
+}
 .banner-content{
     margin: 200px auto 0;
     max-width: 550px;
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
 }
 .banner-btn p{
     margin-top: 0px;
