@@ -1,19 +1,135 @@
 @media screen and (max-width: 576px){
+    
+    h1{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 800;
+    }
+    h2{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    }
+    h3{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    }
+    h4{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    }
     .container{
         max-width: 400px;
         margin: 0 auto;
     }
+    .banner{
+        padding: 20px;
+    }
+    .mike{
+        left: 139px;
+        top: -131px;
+    }
+    .mike img{
+        width: 60px;
+    }
+    .circle{
+        left: 83px;
+        top: -170px;
+    }
+    .circle img{
+        width: 170px;
+    }
+    .new{
+        width: 55px;
+        left: 197px;
+        top: -155px;
+        padding: 5px 3px;
+    }
+    .new p{
+        font-size: 10px;
+    }
+    .section-title{
+        margin-bottom: 15px;
+    }
     .about{
-        padding: 0 20px;
+        padding: 20px;
+    }
+    .small {
+    margin: 15px 0 20px;
     }
     .about-numbers{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 100px);
-        gap: 10px;
+        gap: 0px;
+        padding: 15px;
+        text-align: center;
     }
     .number{
         grid-row: span 1;
         grid-column: span 1;
+    }
+    .techwave{
+        padding: 20px;
+    }
+    .grid-parent{
+        display: block;
+    }
+    .grid-parent h4 {
+    margin: 15px 0 10px;
+    }
+    .one , .two , .three , .four{
+        margin-bottom: 20px;
+    }
+    .one , .two , .three , .four , .five{
+        padding: 25px;
+    }
+    .one img{
+        margin: 0;
+    }
+    .four , .five {
+    height: auto;
+    }
+    .feature{
+        padding: 20px 20px 0px;
+    }
+    .feature-item{
+    max-width: 300px;
+    margin: 0 auto 20px;
+    }
+    .feature-parent{
+        display: block;
+    }
+    .host{
+        padding: 20px;
+    }
+    .host-parent{
+        display: block;
+        gap: 0;
+        padding: 20px;
+    }
+    .host-thumb{
+        max-width: 130px;
+        margin: 0 0 10px;
+    }
+    .s-icon{
+        padding: 0px 3px;
+    }
+    .s-icon li a{
+        font-size: 12px;
+    }
+    footer{
+        padding: 10px 0;
+    }
+    .footer-parent{
+        padding: 40px;
+    }
+    .footer-icons{
+        gap: 0;
+    }
+    .footer-icons li a{
+        font-size: 15px;
     }
 }
